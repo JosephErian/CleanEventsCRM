@@ -1,0 +1,8 @@
+### Create a new customer
+POST https://localhost:5000/api/customers
+Content-Type: application/json
+
+{
+  "name": "Alice Johnson",
+  "email": "alice@example.com"
+}
