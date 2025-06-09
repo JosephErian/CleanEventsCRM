@@ -1,3 +1,5 @@
+# This will be a modular monolith using Domain-Driven Design (DDD) and in-process Event-Driven Architecture using C# events/delegates or MediatR.
+
 CleanEventsCRM/
 ├── Core/ # Domain layer
 │ ├── Customer/
@@ -59,7 +61,3 @@ The controller may map or transform the response into an appropriate HTTP respon
    The framework serializes the response to JSON (or another format).
 
 The response is sent back through the middleware pipeline to the client.
-
-10. Traffic
-    Client --> Middleware --> Routing --> Controller --> MediatR --> Handler --> Services/DB
-    <-- Response <-- <-- <-- <-- <--
